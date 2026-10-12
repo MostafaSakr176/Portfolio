@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Mostafa Sakr</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2bd4be"/>
+      <stop offset="1" stop-color="#30abe8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#g)"/>
+  <!-- Bold "S" monogram, drawn as a path so it renders identically on every OS -->
+  <path
+    d="M44 22C44 22 40 16 32 16C24 16 20 21 20 26C20 31 24 33 32 34C40 35 44 37 44 43C44 48 40 52 32 52C24 52 20 46 20 46"
+    fill="none"
+    stroke="#07101f"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function () {
+        const theme = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+        if (theme === "light") {
+          document.documentElement.classList.remove("dark");
+        } else if (theme === "system") {
+          document.documentElement.classList.toggle("dark", prefersDark);
+        } else {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#07101f" />
+    <title>Mostafa Sakr — Senior Frontend Developer</title>
+    <meta name="description" content="Portfolio of Mostafa Sakr, Senior Frontend Developer specializing in React, Next.js, and TypeScript." />
+    <meta name="author" content="Mostafa Sakr" />
+
+    <meta property="og:title" content="Mostafa Sakr — Senior Frontend Developer" />
+    <meta property="og:description" content="Portfolio of Mostafa Sakr, Senior Frontend Developer specializing in React, Next.js, and TypeScript." />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="module" crossorigin src="/assets/index-DySsBWY9.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DcD5q91S.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

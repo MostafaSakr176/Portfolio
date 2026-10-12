@@ -1,0 +1,214 @@
+{
+  "profile": {
+    "name": "Mostafa Sakr",
+    "role": "Senior Frontend Developer",
+    "email": "mostafasakr308@gmail.com",
+    "phone": "+201010446219",
+    "location": "Cairo, Egypt",
+    "linkedin": "https://linkedin.com/in/mostafa-sakr-937012188",
+    "github": "https://github.com/MostafaSakr176"
+  },
+
+  "sections": [
+    { "id": "about", "label": "About" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "contact", "label": "Contact" }
+  ],
+
+  "hero": {
+    "roles": [
+      "Senior Frontend Developer",
+      "React & Next.js Specialist",
+      "Frontend Team Lead",
+      "SaaS Platform Builder"
+    ]
+  },
+
+  "about": {
+    "paragraphs": [
+      "I'm a Senior Frontend Developer with 5+ years of experience building scalable, responsive web applications. I specialize in React, Next.js, and TypeScript — from multi-tenant e-commerce and fintech platforms to travel booking engines and AI-powered SaaS products.",
+      "I've worked as a Frontend Team Lead, contribute to monorepo architectures and shared UI libraries, and care about code quality through testing, code reviews, and clean architecture. I hold a Bachelor's in Computers and Information from Mansoura University."
+    ],
+    "chips": [
+      { "icon": "MapPin", "label": "Cairo, Egypt" },
+      { "icon": "GraduationCap", "label": "Mansoura University" },
+      { "icon": "Code2", "label": "Frontend Specialist" }
+    ],
+    "stats": [
+      { "value": 5, "suffix": "+", "label": "Years of experience" },
+      { "value": 14, "suffix": "", "label": "Projects" },
+      { "value": 5, "suffix": "", "label": "Companies" }
+    ]
+  },
+
+  "skillCategories": [
+    {
+      "title": "Languages & Frameworks",
+      "icon": "Code2",
+      "skills": ["JavaScript (ES6+)", "TypeScript", "React.js", "Next.js", "Node.js", "Express"]
+    },
+    {
+      "title": "Tools & Technologies",
+      "icon": "Wrench",
+      "skills": ["REST", "GraphQL", "Socket.io", "JWT", "Server-Sent Events", "Git", "GitHub", "GitLab"]
+    },
+    {
+      "title": "Libraries",
+      "icon": "Layers",
+      "skills": [
+        "Redux",
+        "Redux Toolkit",
+        "React Query",
+        "Styled Components",
+        "Material UI",
+        "Ant Design",
+        "ShadCN"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Darts Booking Engine SaaS",
+      "image": "🧳",
+      "tags": ["Next.js", "TypeScript"],
+      "live": "https://dartstravelers.com/",
+      "preview": "/previews/darts.jpg",
+      "highlights": [
+        "Built a server-rendered, SEO-friendly white-label travel platform with domain-based theme auto-detection and full branding control.",
+        "Delivered smooth booking flows for flights, hotels, tours, and custom packages with reusable UIs for B2C, B2B, and B2E channels.",
+        "Contributed to a responsive admin dashboard for managing content, services, and themes."
+      ]
+    },
+    {
+      "title": "Sbaik",
+      "subtitle": "Gold & silver store",
+      "image": "🥇",
+      "tags": ["MVC"],
+      "description": "Sbaik is a specialized platform focused on the trading of gold and silver bullion, offering users a reliable resource for investing in precious metals. The platform not only facilitates trading but also promotes financial literacy by spreading awareness about the benefits of investing and saving in gold and silver. Through Sbaik, users can access valuable insights and guidance on how to diversify their portfolios with precious metals, making it an essential tool for both novice and experienced investors.",
+      "live": "https://sbaik.sa/",
+      "preview": "/previews/sbaik.jpg"
+    },
+    {
+      "title": "Qowa.ai",
+      "subtitle": "Penetration testing platform",
+      "image": "🔒",
+      "tags": ["Next.js", "TypeScript"],
+      "description": "Developed a responsive marketing website and client management system for a cybersecurity company specializing in penetration testing. Built client-facing workflows for organization and project management, security assessment coordination, vulnerability findings, exploit evidence, and remediation reporting. Supported integrations with GitHub, GitLab, and CI/CD-related workflows to streamline security assessment processes.",
+      "live": "https://qowa-ai.vercel.app",
+      "preview": "/previews/qowa.jpg"
+    },
+    {
+      "title": "MachineGenius",
+      "subtitle": "AI-powered SaaS platform",
+      "image": "🤖",
+      "tags": ["Next.js", "TypeScript"],
+      "live": "https://machinegenius.io/",
+      "preview": "/previews/machinegenius.jpg",
+      "description": "Developed a modular AI-powered SaaS platform designed to automate and streamline content production, video creation, and recruitment workflows through intelligent integrations and scalable web applications.",
+      "highlights": [
+        "AI Content Generation Module: Integrated AI-powered workflows that significantly accelerated script writing, enabling content writers to produce more than 5–6 scripts per day compared to the previous manual process.",
+        "Video Production Module: Developed interfaces and workflows for converting approved scripts into videos using customizable layouts, footage integration, and automated video generation and publishing workflows for YouTube.",
+        "HR & Recruitment Module: Built recruitment management features, including CV parsing and screening workflows, supporting applicant evaluation and ATS-like functionality.",
+        "Frontend Architecture: Developed reusable UI components, responsive interfaces, and modular frontend features to support scalable SaaS functionality and efficient collaboration across modules.",
+        "Third-Party Integrations: Integrated frontend workflows with backend APIs and AI-powered services to automate content creation, video production, and recruitment processes."
+      ]
+    },
+    {
+      "title": "Street Sweet",
+      "subtitle": "Stock market alerts platform",
+      "image": "📈",
+      "tags": ["React", "Next.js", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "REST APIs"],
+      "live": "https://streetsuite.com/",
+      "preview": "/previews/street-sweet.jpg",
+      "description": "Developed a web-based stock market platform designed to help users follow trading strategies, receive stock market alerts, and make informed trading decisions. Implemented responsive user interfaces, subscription plan management, and API integrations to deliver a seamless user experience.",
+      "highlights": [
+        "Stock Alerts & Strategies: Built interfaces enabling users to follow trading strategies and receive stock-related alerts.",
+        "Subscription Management: Developed UI workflows for subscription plans and platform features.",
+        "Frontend Development: Created reusable components, responsive layouts, and maintainable frontend architecture.",
+        "API Integration: Integrated backend APIs to support platform functionality and dynamic data rendering."
+      ]
+    },
+    {
+      "title": "Right Decision",
+      "image": "🎯",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "description": "Marketing website for a Saudi establishment specialized in customer experience that focuses on development and achieving results, providing high expertise specifically designed throughout the project lifecycle.",
+      "live": "https://rightdecisionsa.com/",
+      "preview": "/previews/right-decision.jpg"
+    },
+    {
+      "title": "Liard for Travelling",
+      "image": "✈️",
+      "tags": ["HTML", "SCSS", "JavaScript"],
+      "description": "Landing page for a travelling company.",
+      "live": "https://travel-site-liard.vercel.app/",
+      "preview": "/previews/liard.jpg"
+    }
+  ],
+
+  "experiences": [
+    {
+      "title": "Senior Frontend Developer",
+      "company": "PaySky",
+      "sector": "Fintech",
+      "location": "Cairo, Egypt",
+      "duration": "Feb 2026 — Present",
+      "current": true,
+      "description": "Developing and maintaining frontend features for a large-scale multi-tenant e-commerce marketplace platform similar to Shopify, supporting multiple tenants and diverse business domains. Building highly customizable UI experiences per tenant through dynamic configurations, theming, and reusable components while maintaining consistency across applications. Working on tenant-specific workflows, feature flags, permissions, and access control systems to ensure secure and flexible user experiences.",
+      "highlights": [
+        "Contributing to a monorepo architecture that consolidates multiple company projects, improving code sharing, consistency, and development efficiency across teams — actively involved in defining scalable frontend structure, shared UI libraries, and reusable business logic across applications.",
+        "Ensuring high code quality and system reliability through unit testing, code reviews, and adherence to clean architecture principles. Promoting best practices across the team including reusable patterns, state management consistency, and performance optimization."
+      ]
+    },
+    {
+      "title": "Senior Frontend Developer",
+      "company": "E2E County",
+      "sector": "Travware",
+      "location": "Sheraton, Cairo",
+      "duration": "May 2025 — Feb 2026",
+      "highlights": [
+        "Built tourism sector applications that process large amounts of live data using Server-Sent Events (SSE) for real-time updates.",
+        "Led a social media integration project, centralizing operations across platforms. Built frontend integrations for Meta (Facebook/Instagram/WhatsApp) and LinkedIn to manage pages, posts, ads, and campaigns. Developed UI for email management with role-based permissions and integrated WhatsApp templates with media and interactive buttons. Created responsive workflows for managing employees, customers, and email campaigns via APIs.",
+        "Wrote unit tests using Jest and React Testing Library to ensure reliability and prevent regressions, and maintained detailed technical documentation for integrations, workflows, and API interactions.",
+        "Improved the frontend of Dart, a SaaS application, by refactoring the file structure, optimizing system requests, and reducing redundant backend calls by consolidating multiple ping requests into a single call using Next.js middleware."
+      ]
+    },
+    {
+      "title": "Senior Frontend Developer / Frontend Team Lead",
+      "company": "Geek Labs",
+      "location": "Cairo, Egypt",
+      "duration": "Mar 2024 — May 2025",
+      "description": "Developed and contributed to multiple web applications and SaaS platforms, focusing on scalable frontend architecture, responsive UI development, API integrations, and business workflow automation.",
+      "highlights": [
+        "MachineGenius — AI-Powered SaaS Platform: Developed frontend modules for AI-powered content generation, automated video production, and HR recruitment, including CV screening and ATS-like workflows.",
+        "Street Sweet — Stock Market Alerts Platform: Developed a web application enabling users to follow stock market strategies, receive trading alerts, and access subscription plans and platform features."
+      ]
+    },
+    {
+      "title": "Front End Developer",
+      "company": "Smart Vision",
+      "location": "Mansoura, Egypt",
+      "duration": "Oct 2021 — Oct 2022",
+      "description": "As a Frontend Developer, I was responsible for designing and implementing user interfaces, optimizing performance, and delivering responsive web applications using modern technologies like HTML, CSS, Tailwind CSS, JavaScript, React.js, Next.js, and RESTful APIs."
+    },
+    {
+      "title": "Front End Developer",
+      "company": "Valintika",
+      "location": "Turkey",
+      "duration": "Sep 2020 — Sep 2021",
+      "description": "As a Frontend Developer, I designed and developed responsive, user-friendly web interfaces using HTML, CSS, JavaScript, and jQuery, ensuring cross-browser compatibility and optimal performance. I utilized MVC architecture to structure applications effectively and implemented AJAX for dynamic content updates and seamless data interaction. My role involved collaborating with backend teams to integrate APIs and deliver smooth user experiences while maintaining clean, reusable code."
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Mansoura University",
+      "degree": "Bachelor of Computers and Information",
+      "duration": "2018 — 2022",
+      "location": "Mansoura, Egypt"
+    }
+  ]
+}
