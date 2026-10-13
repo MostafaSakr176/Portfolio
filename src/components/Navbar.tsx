@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Command, Menu, X } from "lucide-react";
+import { Command, Download, Menu, X } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 import { useActiveSection } from "@/hooks/use-active-section";
-import { sections } from "@/data/profile";
+import { resume, sections } from "@/data/profile";
 
 interface NavbarProps {
   onOpenPalette: () => void;
@@ -86,6 +86,14 @@ const Navbar = ({ onOpenPalette }: NavbarProps) => {
               );
             })}
           </ul>
+          <a
+            href={resume.url}
+            download={resume.fileName}
+            className="inline-flex items-center gap-2 h-9 px-3 rounded-lg border border-primary/40 text-sm text-primary hover:bg-primary/10 transition-colors"
+          >
+            <Download size={14} />
+            Resume
+          </a>
           {paletteButton}
           <ThemeToggle />
         </div>
@@ -132,6 +140,21 @@ const Navbar = ({ onOpenPalette }: NavbarProps) => {
                   </a>
                 </motion.li>
               ))}
+              <motion.li
+                initial={{ opacity: 0, x: -12 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.05 * sections.length }}
+              >
+                <a
+                  href={resume.url}
+                  download={resume.fileName}
+                  onClick={() => setMobileOpen(false)}
+                  className="inline-flex items-center gap-2 text-primary"
+                >
+                  <Download size={16} />
+                  Download Resume
+                </a>
+              </motion.li>
             </ul>
           </motion.div>
         )}

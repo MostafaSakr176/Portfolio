@@ -64,8 +64,8 @@ const About = () => (
 
           <dl className="grid grid-cols-3 gap-4 pt-4">
             {stats.map((s, i) => (
-              <Reveal key={s.label} delay={0.35 + i * 0.1} y={20}>
-                <div className="glass-card p-4 md:p-5 text-center !rounded-2xl hover:border-primary/30 transition-colors">
+              <Reveal key={s.label} delay={0.35 + i * 0.1} y={20} className="h-full">
+                <div className="glass-card h-full flex flex-col justify-center p-4 md:p-5 text-center !rounded-2xl hover:border-primary/30 transition-colors">
                   <dt className="sr-only">{s.label}</dt>
                   <dd>
                     <CountUp

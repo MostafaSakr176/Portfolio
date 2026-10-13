@@ -5,11 +5,11 @@ import {
   useScroll,
   useTransform,
 } from "framer-motion";
-import { ArrowDown, ArrowRight, Command, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, ArrowRight, Command, Download, Github, Linkedin, Mail } from "lucide-react";
 import NeuralBackground from "@/components/fx/NeuralBackground";
 import TextReveal from "@/components/fx/TextReveal";
 import Magnetic from "@/components/fx/Magnetic";
-import { profile, heroRoles as roles } from "@/data/profile";
+import { profile, resume, heroRoles as roles } from "@/data/profile";
 
 const isMac = () =>
   typeof navigator !== "undefined" && /Mac|iPhone|iPad/.test(navigator.platform);
@@ -167,6 +167,19 @@ const Hero = ({ onOpenPalette }: HeroProps) => {
               className="inline-flex items-center justify-center px-8 py-3 rounded-lg font-medium border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
             >
               Contact Me
+            </a>
+          </Magnetic>
+          <Magnetic>
+            <a
+              href={resume.url}
+              download={resume.fileName}
+              className="group inline-flex items-center justify-center gap-2 px-8 py-3 rounded-lg font-medium border border-border text-foreground hover:border-primary hover:text-primary transition-colors duration-300"
+            >
+              <Download
+                size={18}
+                className="transition-transform duration-300 group-hover:translate-y-0.5"
+              />
+              Download CV
             </a>
           </Magnetic>
         </motion.div>

@@ -6,6 +6,7 @@
  * missing field in the JSON fails the build instead of breaking at runtime.
  */
 import data from "./portfolio.json";
+import resumeUrl from "@/assets/Mostafa_Sakr_resume.pdf?url";
 
 export interface Profile {
   name: string;
@@ -80,6 +81,9 @@ export const skillCategories: SkillCategory[] = data.skillCategories;
 export const projects: Project[] = data.projects;
 export const experiences: Experience[] = data.experiences;
 export const education: Education[] = data.education;
+
+/** Replace `src/assets/Mostafa_Sakr_resume.pdf` to update the downloadable CV. */
+export const resume = { url: resumeUrl, fileName: "Mostafa_Sakr_Resume.pdf" };
 
 /** Every skill from the CV, flattened — feeds the home-page tech ticker. */
 export const techStack: string[] = skillCategories.flatMap((c) => c.skills);

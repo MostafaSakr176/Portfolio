@@ -5,6 +5,7 @@ import {
   Briefcase,
   Code2,
   Copy,
+  Download,
   FolderGit2,
   Github,
   Linkedin,
@@ -26,7 +27,7 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
-import { profile, projects, sections } from "@/data/profile";
+import { profile, projects, resume, sections } from "@/data/profile";
 
 interface CommandPaletteProps {
   open: boolean;
@@ -82,6 +83,14 @@ const CommandPalette = ({ open, onOpenChange }: CommandPaletteProps) => {
       } catch {
         toast.error(`Couldn't copy ${label.toLowerCase()}`);
       }
+    });
+
+  const downloadResume = () =>
+    run(() => {
+      const link = document.createElement("a");
+      link.href = resume.url;
+      link.download = resume.fileName;
+      link.click();
     });
 
   return (
@@ -141,6 +150,10 @@ const CommandPalette = ({ open, onOpenChange }: CommandPaletteProps) => {
                   <Moon className="mr-3 h-4 w-4 text-primary" />
                 )}
                 Switch to {isDark ? "light" : "dark"} mode
+              </CommandItem>
+              <CommandItem value="download resume cv pdf" onSelect={downloadResume}>
+                <Download className="mr-3 h-4 w-4 text-primary" />
+                Download resume
               </CommandItem>
               <CommandItem value="copy email address" onSelect={() => copy(profile.email, "Email")}>
                 <Copy className="mr-3 h-4 w-4 text-primary" />
