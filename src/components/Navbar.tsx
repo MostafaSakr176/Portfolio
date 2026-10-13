@@ -56,7 +56,7 @@ const Navbar = ({ onOpenPalette }: NavbarProps) => {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16">
         <a href="#" className="text-xl font-bold font-mono text-gradient" aria-label="Back to top">
-          {"<Sakr />"}
+          {"<Sakr.dev />"}
         </a>
 
         {/* Desktop */}
