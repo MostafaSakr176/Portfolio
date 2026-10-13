@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Mostafa Sakr",
-    "role": "Senior Frontend Developer",
+    "role": "Senior Frontend Engineer",
     "email": "mostafasakr308@gmail.com",
     "phone": "+201010446219",
     "location": "Cairo, Egypt",
@@ -19,7 +19,7 @@
 
   "hero": {
     "roles": [
-      "Senior Frontend Developer",
+      "Senior Frontend Engineer",
       "React & Next.js Specialist",
       "Frontend Team Lead",
       "SaaS Platform Builder"
@@ -28,8 +28,8 @@
 
   "about": {
     "paragraphs": [
-      "I'm a Senior Frontend Developer with 5+ years of experience building scalable, responsive web applications. I specialize in React, Next.js, and TypeScript — from multi-tenant e-commerce and fintech platforms to travel booking engines and AI-powered SaaS products.",
-      "I've worked as a Frontend Team Lead, contribute to monorepo architectures and shared UI libraries, and care about code quality through testing, code reviews, and clean architecture. I hold a Bachelor's in Computers and Information from Mansoura University."
+      "I'm a Senior Frontend Engineer with 5+ years of experience building scalable web applications and SaaS platforms with React.js, Next.js, and TypeScript. I'm currently building a multi-tenant e-commerce marketplace at PaySky, focusing on monorepo architecture, tenant-specific theming, and permission systems.",
+      "Previously, I led a frontend team at Geek Labs and delivered real-time and social media integration projects. I'm strong in clean architecture, performance optimization, testing, and mentoring, and I hold a Bachelor's in Computers and Information from Mansoura University."
     ],
     "chips": [
       { "icon": "MapPin", "label": "Cairo, Egypt" },
@@ -84,10 +84,15 @@
     },
     {
       "title": "Sbaik",
-      "subtitle": "Gold & silver store",
+      "subtitle": "Gold & silver trading platform",
       "image": "🥇",
-      "tags": ["MVC"],
-      "description": "Sbaik is a specialized platform focused on the trading of gold and silver bullion, offering users a reliable resource for investing in precious metals. The platform not only facilitates trading but also promotes financial literacy by spreading awareness about the benefits of investing and saving in gold and silver. Through Sbaik, users can access valuable insights and guidance on how to diversify their portfolios with precious metals, making it an essential tool for both novice and experienced investors.",
+      "tags": ["JavaScript", "HTML5", "CSS3", "PHP MVC"],
+      "description": "Live precious-metals trading and investment platform used by 50,000+ users.",
+      "highlights": [
+        "Built the responsive, user-facing interface with vanilla JavaScript, HTML5, and CSS3 on an MVC architecture.",
+        "Worked closely with the PHP backend team to integrate APIs and deliver smooth trading and investing flows.",
+        "Supported the platform's educational side, helping users learn how to save and diversify with gold and silver."
+      ],
       "live": "https://sbaik.sa/",
       "preview": "/previews/sbaik.jpg"
     },
@@ -107,20 +112,19 @@
       "tags": ["Next.js", "TypeScript"],
       "live": "https://machinegenius.io/",
       "preview": "/previews/machinegenius.jpg",
-      "description": "Developed a modular AI-powered SaaS platform designed to automate and streamline content production, video creation, and recruitment workflows through intelligent integrations and scalable web applications.",
+      "description": "Developed a modular, AI-powered SaaS platform streamlining content production, video creation, and recruitment through scalable web applications and intelligent integrations.",
       "highlights": [
-        "AI Content Generation Module: Integrated AI-powered workflows that significantly accelerated script writing, enabling content writers to produce more than 5–6 scripts per day compared to the previous manual process.",
-        "Video Production Module: Developed interfaces and workflows for converting approved scripts into videos using customizable layouts, footage integration, and automated video generation and publishing workflows for YouTube.",
-        "HR & Recruitment Module: Built recruitment management features, including CV parsing and screening workflows, supporting applicant evaluation and ATS-like functionality.",
-        "Frontend Architecture: Developed reusable UI components, responsive interfaces, and modular frontend features to support scalable SaaS functionality and efficient collaboration across modules.",
-        "Third-Party Integrations: Integrated frontend workflows with backend APIs and AI-powered services to automate content creation, video production, and recruitment processes."
+        "AI Content Generation: Accelerated script writing, enabling content writers to produce 5–6+ scripts daily.",
+        "Video Production: Built workflows to convert approved scripts into videos using customizable layouts, footage integration, AI-powered generation, and YouTube publishing.",
+        "HR & Recruitment: Implemented recruitment management, CV parsing, applicant screening, and ATS-like workflows.",
+        "Frontend Architecture & Integrations: Developed reusable components, responsive interfaces, modular features, and backend API/AI service integrations to automate workflows and support scalability."
       ]
     },
     {
-      "title": "Street Sweet",
+      "title": "StreetSuite",
       "subtitle": "Stock market alerts platform",
       "image": "📈",
-      "tags": ["React", "Next.js", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "REST APIs"],
+      "tags": ["React.js", "TypeScript"],
       "live": "https://streetsuite.com/",
       "preview": "/previews/street-sweet.jpg",
       "description": "Developed a web-based stock market platform designed to help users follow trading strategies, receive stock market alerts, and make informed trading decisions. Implemented responsive user interfaces, subscription plan management, and API integrations to deliver a seamless user experience.",
@@ -157,10 +161,11 @@
       "location": "Cairo, Egypt",
       "duration": "Feb 2026 — Present",
       "current": true,
-      "description": "Developing and maintaining frontend features for a large-scale multi-tenant e-commerce marketplace platform similar to Shopify, supporting multiple tenants and diverse business domains. Building highly customizable UI experiences per tenant through dynamic configurations, theming, and reusable components while maintaining consistency across applications. Working on tenant-specific workflows, feature flags, permissions, and access control systems to ensure secure and flexible user experiences.",
+      "description": "Frontend engineer on a large-scale, multi-tenant e-commerce marketplace platform (similar to Shopify) serving multiple tenants across diverse business domains. Built highly customizable tenant experiences through dynamic configuration, theming, and reusable components, supporting 100+ tenants.",
       "highlights": [
-        "Contributing to a monorepo architecture that consolidates multiple company projects, improving code sharing, consistency, and development efficiency across teams — actively involved in defining scalable frontend structure, shared UI libraries, and reusable business logic across applications.",
-        "Ensuring high code quality and system reliability through unit testing, code reviews, and adherence to clean architecture principles. Promoting best practices across the team including reusable patterns, state management consistency, and performance optimization."
+        "Implemented tenant-specific workflows, feature flags, permissions, and access control for secure and flexible user experiences.",
+        "Contributed to a monorepo consolidating 3 company projects, defining shared UI libraries and reusable business logic that reduced duplicated code by 97%.",
+        "Raised code quality through unit testing, code reviews, and clean architecture, reaching 98% test coverage and improving page load time by 90%."
       ]
     },
     {
@@ -169,30 +174,31 @@
       "sector": "Travware",
       "location": "Sheraton, Cairo",
       "duration": "May 2025 — Feb 2026",
+      "description": "Developed tourism applications that handle 100,000+ live records using Server-Sent Events for real-time updates.",
       "highlights": [
-        "Built tourism sector applications that process large amounts of live data using Server-Sent Events (SSE) for real-time updates.",
-        "Led a social media integration project, centralizing operations across platforms. Built frontend integrations for Meta (Facebook/Instagram/WhatsApp) and LinkedIn to manage pages, posts, ads, and campaigns. Developed UI for email management with role-based permissions and integrated WhatsApp templates with media and interactive buttons. Created responsive workflows for managing employees, customers, and email campaigns via APIs.",
-        "Wrote unit tests using Jest and React Testing Library to ensure reliability and prevent regressions, and maintained detailed technical documentation for integrations, workflows, and API interactions.",
-        "Improved the frontend of Dart, a SaaS application, by refactoring the file structure, optimizing system requests, and reducing redundant backend calls by consolidating multiple ping requests into a single call using Next.js middleware."
+        "Led a social media integration project connecting Meta (Facebook, Instagram, WhatsApp) and LinkedIn to manage pages, posts, ads, and campaigns, serving 1k+ users.",
+        "Implemented role-based email management, interactive WhatsApp templates with media and buttons, and API-driven customer and email campaign workflows.",
+        "Optimized Dart (SaaS) by refactoring the frontend architecture and using Next.js middleware to merge redundant backend ping requests into one call, cutting requests by 95%.",
+        "Wrote unit tests with Jest and React Testing Library and maintained technical documentation for integrations and workflows."
       ]
     },
     {
-      "title": "Senior Frontend Developer / Frontend Team Lead",
+      "title": "Senior Frontend Developer",
       "company": "Geek Labs",
       "location": "Cairo, Egypt",
       "duration": "Mar 2024 — May 2025",
-      "description": "Developed and contributed to multiple web applications and SaaS platforms, focusing on scalable frontend architecture, responsive UI development, API integrations, and business workflow automation.",
+      "description": "Led a team of 8 frontend developers, setting standards for architecture, code reviews, and delivery.",
       "highlights": [
-        "MachineGenius — AI-Powered SaaS Platform: Developed frontend modules for AI-powered content generation, automated video production, and HR recruitment, including CV screening and ATS-like workflows.",
-        "Street Sweet — Stock Market Alerts Platform: Developed a web application enabling users to follow stock market strategies, receive trading alerts, and access subscription plans and platform features."
+        "MachineGenius (AI SaaS): Built modules for AI content generation, automated video production, and HR recruitment (CV parsing and ATS-style screening). Helped content writers produce 5–6+ scripts daily.",
+        "StreetSuite (Stock Alerts Platform): Built interfaces for following trading strategies, receiving alerts, and managing subscription plans, used by 100+ subscribers."
       ]
     },
     {
-      "title": "Front End Developer",
+      "title": "Frontend Developer",
       "company": "Smart Vision",
       "location": "Mansoura, Egypt",
       "duration": "Oct 2021 — Oct 2022",
-      "description": "As a Frontend Developer, I was responsible for designing and implementing user interfaces, optimizing performance, and delivering responsive web applications using modern technologies like HTML, CSS, Tailwind CSS, JavaScript, React.js, Next.js, and RESTful APIs."
+      "description": "Designed and built responsive web applications with React.js, Next.js, Tailwind CSS, and RESTful APIs. Improved performance and responsiveness across 5 projects."
     },
     {
       "title": "Front End Developer",
